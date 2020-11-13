@@ -1,0 +1,331 @@
+body {
+    min-width: 1050px;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    color: #000000;
+}
+.main-header{
+    padding-top: 30px;
+    padding-bottom: 80px;
+    background-color: #6451d5;
+}
+.conteiner{
+    width: 1030px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.header-top{
+    border-bottom: 90px;
+}
+.header-top:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.logo{
+    width: 182px;
+    height: 85px;
+    float: left;
+}
+.main-menu{
+    width: 670px;
+    float: right;
+    margin-top: 35px;
+    min-height: 40px;
+}
+.main-menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.main-menu li{
+    display: inline-block;
+    margin-right: 45px;
+    vertical-align: top;
+}
+.main-menu a{
+    color: #000000;
+    text-decoration: none;
+    color: white;
+}
+.main-menu a:hover{
+    text-decoration: underline;
+}
+.main-menu a:active{
+    text-decoration: none;
+    opacity: 0.3;
+}
+.btn{
+    display: inline-block;
+    padding: 25px;
+    font-size: 20px;
+    vertical-align: top;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #382d78;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+.btn:hover{
+    background: #32286c;
+}
+.btn:active{
+    background: #32286c;
+    color: #6f6898;
+}
+.promo{
+    margin-top: 100px;
+    min-height: 330px;
+    width: 430px;
+    position: relative;
+    z-index: 10;
+}
+.promo::after{
+    content: "";
+    position: absolute;
+    top: -14px;
+    left: 378px;
+    z-index: -1;
+    width: 650px;
+    height: 450px;
+    background-image: url("../img/main.png");
+    background-repeat: no-repeat;
+}
+.promo-title{
+    font-size: 45px;
+    margin-bottom: 50px;
+    line-height: 48px;
+    font-weight: 700;
+    color: white;
+}
+.promo p{
+    margin: 0;
+    margin-bottom: 55px;
+    color: #bcb3f2;
+}
+.promo .btn-purple{
+    width: 320px;
+}
+.features{
+    padding-top: 150px;
+    padding-bottom: 100px;
+    background: #efefef;
+}
+.features-item{
+    min-height: 100px;
+    width: 320px;
+    float: left;
+    margin-right: 30px;
+    position: relative;
+}
+.features-icon{
+    position: absolute;
+    top: -96px;
+    left: 132px;
+    width: 72px;
+    height: 70px;
+}
+.features-icon-schedule{
+    background-image: url("../img/icon%201.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.features-icon-practice{
+    background-image: url("../img/icon%202.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.features-icon-work{
+    background-image: url("../img/icon%203.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.features .conteiner:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.features-item:last-child{
+    margin-right: 0;
+}
+.features-title{
+    margin: 0;
+    margin-bottom: 28px;
+    font-size: 22px;
+}
+.features-item p{
+    margin: 0;
+    color: #555555;
+}
+.form-teaching{
+    padding-bottom: 120px;
+}
+.form-teaching-title,
+.contacts-title {
+    margin:0;
+    padding-top: 10px;
+    margin-bottom: 55px;
+    min-height: 45px;
+    font-size: 45px;
+}
+.form-teaching td {
+    border: 1px solid #a7a7a7;
+    padding: 30px 45px 30px 25px;
+
+}
+table{
+    border-collapse: collapse;
+}
+.color{
+    background: #efefef;
+    color: #404040;
+}
+.form-teaching-table .str{
+    font-size: 22px;
+}
+.contacts{
+    padding-top: 60px;
+    padding-bottom: 75px;
+    background: #efefef;
+}
+.contacts .conteiner{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.contacts-form{
+    min-height: 340px;
+    float: left;
+    width: 670px;
+}
+.contacts-form td{
+    padding-bottom: 30px;
+}
+.contacts-form .title{
+    width: 105px;
+    padding-right: 10px;
+    vertical-align: top;
+    text-align: right;
+    font-weight: 700;
+    line-height: 55px;
+}
+.contacts-form .field{
+    width: 510px;
+}
+.contacts-form input[type="text"],
+.contacts-form textarea{
+    width: 100%;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-size: 18px;
+    color: #404040;
+    line-height: 24px;
+    font-family: Arial, sans-serif;
+    outline: none;
+    border: 2px solid #b2b2b2;
+    border-radius: 2px;
+}
+.contacts-form input[type="text"]:hover,
+.contacts-form textarea:hover{
+    border: 2px solid #7f7f7f;
+}
+.contacts-form input[type="text"]:focus,
+.contacts-form textarea:focus{
+    border: 2px solid #6451d5;
+}
+.contacts-form textarea{
+    min-height: 100px;
+    resize: none;
+}
+.contacts-form .btn{
+    width: 100%;
+}
+.contacts-instruction{
+    float: right;
+    width: 320px;
+}
+.contacts-instruction h3{
+    margin: 0;
+    margin-bottom: 30px;
+    font-size: 22px;
+    line-height: 27px;
+}
+.contacts-instruction p{
+    margin: 0;
+    margin-bottom: 35px;
+    color: #555555;
+}
+.contacts-instruction .contacts-alert{
+    margin-bottom: 0;
+    margin-top: 70px;
+}
+.main-footer{
+    padding-top: 65px;
+    padding-bottom: 85px;
+    background-color: #2a2546;
+    color: white;
+    font-size: 18px;
+    line-height: 24px;
+}
+.main-footer .conteiner::after{
+   content: "";
+    display: table;
+    clear: both; 
+}
+.footer-adress{
+    float: left;
+    width: 320px;
+    min-height: 210px;
+    margin-right: 50px;
+}
+.footer-adress .logo{
+    float: none;
+}
+.footer-adress p{
+    margin: 0;
+    margin-top: 85px;
+}
+.footer-menu{
+    float: left;
+    min-height: 210px;
+    width: 170px;
+    margin-top: 30px;
+}
+.footer-menu h3{
+    margin: 0;
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 19px;
+}
+.footer-menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.footer-menu li{
+    margin-bottom: 30px;
+}
+.footer-menu a{
+    color: #bcb3f2;
+    text-decoration: none;
+}
+.footer-menu a:hover{
+    text-decoration: underline;
+    color: white;
+}
+.footer-menu a:active{
+    color: #69667d;
+    text-decoration: none;
+}
+.footer-menu:last-child{
+    float: right;
+    width: 135px;
+}
